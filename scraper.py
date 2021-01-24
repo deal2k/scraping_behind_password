@@ -1,8 +1,6 @@
 import requests
 import time
-import random
 from bs4 import BeautifulSoup
-import csv
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -57,8 +55,8 @@ headers = {
 }
 
 data = {
-  'username': 'dtucker@tensnet.com',
-  'password': 'xhV$I5Z837!rMFkX',
+  'username': 'foo',
+  'password': 'bar',
   '_wpnonce': token,
   '_wp_http_referer': '/manage-account/',
   'login': 'Login'
