@@ -47,4 +47,8 @@ for cat_num in range(len(categories)):
 ```
 Once you get to the page with data needed you just use table tags for scraping. 
 
+![scraping process](https://github.com/deal2k/scraping_behind_password/blob/main/scraping.png?raw=true)
+
 Finall step is to clean data with `pandas` and export to CSV format.
+
+![clean and export data](https://github.com/deal2k/scraping_behind_password/blob/main/export.png?raw=true)
